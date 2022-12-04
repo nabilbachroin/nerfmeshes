@@ -1,0 +1,8 @@
+python mesh_nerf.py (set dir ckpt nya) --save-dir D:\Nabil\nerfmeshes\src\data\hasil_mesh --limit 1.2 --res 480 --iso-level 32 --view-disparity-max-bound 1e0 --mesh-name lego_v0.obj
+
+
+^^
+python mesh_nerf.py --log-checkpoint ../pretrained/colab-lego-nerf-high-res/default/version_0/ --checkpoint model_last.ckpt --save-dir D:\Nabil\nerfmeshes\src\data\hasil_mesh --limit 1.2 --res 480 --iso-level 32 --view-disparity-max-bound 1e0 --mesh-name lego_v0.obj
+
+^^
+python mesh_nerf.py --log-checkpoint D:\Nabil\nerfmeshes\pretrained\tum-incremental-nerf-slam\default\version_0 --checkpoint epoch=36.ckpt --save-dir D:\Nabil\nerfmeshes\src\data\hasil_meshs 4 --limit 1.2 --res 480 --iso-level 32 --view-disparity-max-bound 1e0 --mesh-name incr_nerf_slam_lego_v0.obj
